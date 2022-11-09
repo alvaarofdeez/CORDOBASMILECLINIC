@@ -22,31 +22,28 @@ public class VentanaUser extends AppCompatActivity {
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBackPressed();
+                cerrarSesion();
             }
         });
     }
 
-    @Override
-    public void onBackPressed() {
-        AlertDialog.Builder adb = new AlertDialog.Builder(this);
-        adb.setMessage("¿Estás seguro que quieres cerrar sesión?");
-        adb.setTitle("Cerrar Sesión");
-        adb.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
+    public void cerrarSesion() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("¿Estás seguro que quieres cerrar sesión?");
+        builder.setTitle("Cerrar Sesión");
+        builder.setPositiveButton("Sí", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 finish();
             }
         });
 
-        adb.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
             }
         });
-
-        AlertDialog dialog = adb.create();
-        dialog.show();
+        builder.show();
     }
 }
