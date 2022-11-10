@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayFechas">
+        <item>01/01/2023</item>
+        <item>02/01/2023</item>
+        <item>03/01/2023</item>
+        <item>04/01/2023</item>
+        <item>05/01/2023</item>
+        <item>06/01/2023</item>
+        <item>07/01/2023</item>
+        <item>08/01/2023</item>
+        <item>09/01/2023</item>
+        <item>10/01/2023</item>
+        <item>11/01/2023</item>
+        <item>12/01/2023</item>
+        <item>13/01/2023</item>
+        <item>14/01/2023</item>
+        <item>15/01/2023</item>
+        <item>16/01/2023</item>
+        <item>17/01/2023</item>
+        <item>18/01/2023</item>
+        <item>19/01/2023</item>
+        <item>20/01/2023</item>
+        <item>21/01/2023</item>
+        <item>22/01/2023</item>
+        <item>23/01/2023</item>
+        <item>24/01/2023</item>
+        <item>25/01/2023</item>
+        <item>26/01/2023</item>
+        <item>27/01/2023</item>
+        <item>28/01/2023</item>
+        <item>29/01/2023</item>
+        <item>30/01/2023</item>
+        <item>31/01/2023</item>
+    </string-array>
+</resources>
